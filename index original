@@ -1,1 +1,32 @@
-original index file
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="icon" href="mnsshp.ico">
+<link rel="stylesheet" href="styles.css">
+<title>Suited Spade</title>
+</head>
+<body>
+<center>
+<hr size="3" noshade>
+<div class="inctr">
+    <img src="Spade xp.png" alt="Suited Spade icon" style="vertical-align: middle;width:90px;height:60px;">
+</div>
+<div class="inctr">      
+    <h1>Welcome to Suited Spade</h1>
+</div>
+<hr>
+    <h1>Sound of Merry</h1>
+<img src="SoMusic1.jpg" alt="SoM Lady" style="width:800px;height:500px;">
+
+<p>Hi I impersonate AKY. Nice to get out to the grand prairie. It's a wonderful day!</p>
+<p>I only want to be with MY. I am MY's.</p>
+<p>Updated by Purple Dart, 1/28/2021</p>
+<p>branch test-2 abc</p>
+<p>test 11/24/2024</p>
+
+</center>
+</body>
+</html>
