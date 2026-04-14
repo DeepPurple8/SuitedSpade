@@ -80,6 +80,20 @@
             gap: 30px;
         }
 
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+
         footer {
             text-align: center;
             padding: 1rem;
@@ -100,7 +114,7 @@
 
     <header>
         <div class="inctr">
-            <img src="LMO Logo L2.png" alt="Suited Spade icon" style="vertical-align: middle;width:110px;height:110px; border-radius: 60px;">
+            <img src="LMO logo L2.png" alt="Suited Spade icon" style="vertical-align: middle;width:110px;height:110px; border-radius: 60px;">
             &nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;
             <h1>Longmont Oasis</h1>
@@ -115,6 +129,7 @@
         <a href="#contact">Contact</a>
     </nav>
     -->
+<!--
     <main>
         <section id="home">
             <h2>Welcome</h2>
@@ -153,9 +168,34 @@
             </form>
         </section>
     </main>
+-->
 
+<div class="row">
+  <div class="column">
+    <img src="ups5.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="usps4.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="usps heel.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+<!--
+<div class="row">
+  <div class="column">
+    <img src="Nuts.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Fish.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Cheeserolls.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+-->	
     <footer>
-        <p>&copy; 2026 My Prototype. All rights reserved.</p>
+        <p>&copy; 2026 Suited Spade. All rights reserved.</p>
     </footer>
 
 </body>
