@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive HTML Prototype</title>
+    <title>Longmont Oasis</title>
     <style>
         /* Basic Reset */
         * {
@@ -11,14 +11,14 @@
             padding: 0;
             box-sizing: border-box;
         }
-
+         
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
             color: #333;
             line-height: 1.6;
         }
-
+        
         header {
             background: #0077cc;
             color: #fff;
@@ -27,23 +27,23 @@
             }
 
         nav {
-            background: #005fa3;
+            background: #f28c28;
             display: flex;
             justify-content: center;
             gap: 1rem;
-            padding: 0.5rem;
+            padding: 0.05rem;
         }
 
         nav a {
             color: #fff;
             text-decoration: none;
-            padding: 0.5rem 1rem;
+            padding: 0.05rem 1rem;
             border-radius: 4px;
             transition: background 0.3s;
         }
 
-        nav a:hover {
-            background: #004a80;
+        nav a:hover, nav a.active {
+            background: #50c878;
         }
 
         main {
@@ -112,9 +112,9 @@
 </head>
 <body>
 
-    <header>
+    <header id="home">
         <div class="inctr">
-            <img src="LMO Logo L2.png" alt="Suited Spade icon" style="vertical-align: middle;width:110px;height:110px; border-radius: 60px;">
+            <img src="LMO Logo L2.png" alt="Longmont icon" style="vertical-align: middle;width:110px;height:110px; border-radius: 60px;">
             &nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;
             <h1>Longmont Oasis</h1>
@@ -122,13 +122,15 @@
         </div>
 
     </header>
-    <!--
+    
     <nav>
+        <!--
+        <a href="#home" class="active">Home</a> -->
         <a href="#home">Home</a>
-        <a href="#features">Features</a>
-        <a href="#contact">Contact</a>
+        <a href="ledger.html" target="_blank">Ledger</a>
+        <a href="tasks.html">Tasks</a>
     </nav>
-    -->
+    
 <!--
     <main>
         <section id="home">
@@ -169,6 +171,7 @@
         </section>
     </main>
 -->
+<section>
 <h3>Wednesday, April 15, 2026</h3>
 <div class="row">
   <div class="column">
@@ -184,9 +187,11 @@
     <img src="USPS.jpg" alt="Mountains" style="width:100%">
   </div>
   <div class="column">
-    <img src="usps 415.jpeg" alt="Mountains" style="width:100%">
+    <img src="usps 415.png" alt="Mountains" style="width:100%">
   </div>
 </div>
+</section> 
+<section>
 <h3>Past</h3>
 <div class="row">
   <div class="column">
@@ -199,6 +204,7 @@
     <img src="usps heel.jpg" alt="Mountains" style="width:100%">
   </div>
 </div>
+</section>   
 <!--
 <div class="row">
   <div class="column">
@@ -212,9 +218,9 @@
   </div>
 </div>
 -->	
-    <footer>
-        <p>&copy; 2026 Suited Spade. <img src="Spade xp.png" alt="Suited Spade icon" style="vertical-align: middle;width:45px;height:30px;"> All rights reserved.</p>
-    </footer>
+<footer>
+    <p>&copy; 2026 Suited Spade. <img src="Spade xp.png" alt="Suited Spade icon" style="vertical-align: middle;width:45px;height:30px;"> All rights reserved.</p>
+</footer>
 
 </body>
 </html>
