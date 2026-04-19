@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="icon" href="mnsshp.ico">
+<link rel="stylesheet" href="styles.css">
+<title>Longmont Oasis</title>
+<style>
+input[type=text] {
+  margin: 8px 0;
+  /* width, padding, box-sizing */
+}
+
+input[type=submit] {
+  padding: 12px 20px;
+  cursor: pointer;
+  /* background-color, color, border */
+}
+
+/* hover state */
+table, td, th {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #93daca;
+  border-color: white;
+  padding: 10px;
+}
+</style>
+
+</head>
+<body>
+    <header id="home">
+        <div class="inctr">
+            <img src="LMO logo L2.png" alt="Suited Spade icon" style="vertical-align: middle;width:110px;height:110px; border-radius: 60px;">
+            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            <h1>Longmont Oasis</h1>
+        <!-- <p>Quick interactive layout without JavaScript</p> -->
+        </div>
+
+    </header>
+    
+    <nav>
+        <!--
+        <a href="#home" class="active">Home</a> -->
+        <a href="index.html">Home</a>
+        <a href="ledger.html" target="_blank">Ledger</a>
+        <a href="tasks.html">Tasks</a>
+    </nav>
+
+<h1>Tasks</h1>
+<!-- <h2>Task list</h2> -->
+<!--
+<p>Click the buttons to create and delete row(s) for the table.</p>
+-->
+<table id="myTable" style="width:100%">
+  <caption style="text-align:left; font-family: 'Brush Script MT, sans-serif'; font-size: 20px; font-weight: bold; color: green;">Task List</caption>
+  <tr>
+    <th colspan="2" style="width:80%">Task</th>
+    <th>Completed Y/N</th>
+  </tr>
+  <tr>
+    <td>Mark</td>
+    <td>Replenish snacks, coffee, tea, etc</td>
+    <td style="text-align:center">Y</td>
+  </tr>
+  <!--
+  <tr>
+    <td></td>
+    <td></td>
+  </tr> -->
+</table>
+<img src="under construction.png" alt="Under Construction" style="width: 100%; height:100%; align-items: center;">
+<!--
+<button onclick="myCreateFunction()">Create row</button>
+<button onclick="myDeleteFunction(n)">Delete row</button>
+<br>
+<form id="myTasks">
+  <label>First Name</label><br>
+  <input type="text" name="fname" placeholder="Enter first name"><br>
+  <label>Last Name</label><br>
+  <input type="text" name="lname" placeholder="Enter last name"><br>
+  <input type="submit" onclick="getTasks()" value="Submit">
+</form>
+
+<script>
+function myCreateFunction() {
+  var table = document.getElementById("myTable");
+  var row = table.insertRow(1);
+  var cell1 = row.insertCell(0);
+  var cell2 = row.insertCell(1);
+  cell1.innerHTML = first;
+  cell2.innerHTML = last;
+  /*
+  cell1.innerHTML = "task3";
+  cell2.innerHTML = "N";
+  */
+}
+
+function myDeleteFunction(n) {
+  document.getElementById("myTable").deleteRow(n);
+}
+
+function getTasks() {
+    const form = document.getElementById('myTasks');
+    const first = form.fname.value;
+    const last = form.lname.value;
+
+    /* alert(`Apples: ${apples}\nBananas: ${bananas}`); */
+
+    var table = document.getElementById("myTable");
+    var row = table.insertRow(1);
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+    cell1.innerHTML = first;
+    cell2.innerHTML = last;
+
+    alert(`Apples: ${first}\nBananas: ${last}`);
+}
+
+</script>
+-->
+</body>
+</html>
