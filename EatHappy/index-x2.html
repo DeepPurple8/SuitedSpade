@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat, Move, & Happy</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 10;
+            padding: 10;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: tomato;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+            }
+
+        nav {
+            background: #005fa3;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 0.5rem;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background: #004a80;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+        h2 {
+            background: rgb(84, 219, 71);
+            font-family: Segoe Script, Arial, Helvetica, sans-serif;
+            margin-bottom: 1rem;
+        }
+
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: scale(1.02);
+        }
+
+        .inctr {
+            padding: 1rem;
+            display: inline-block;
+            gap: 30px;
+        }
+
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+        }
+
+        /* Clearfix (clear floats) */
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #0077cc;
+            color: #fff;
+            margin-top: 2rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="inctr">
+            <img src="YD Logo.jpeg" alt="Suited Spade icon" style="vertical-align: middle;width:110px;height:110px; border-radius: 60px;">
+            &nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;
+            <h1>Eat Well. Move More. Live Happy. </h1>
+        <!-- <p>Quick interactive layout without JavaScript</p> -->
+        </div>
+
+    </header>
+    <!--
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    -->
+<!--
+    <main>
+        <section id="home">
+            <h2>Welcome</h2>
+            <p>This is a simple HTML prototype with responsive design and hover effects.</p>
+        </section>
+
+        <section id="features">
+            <h2>Features</h2>
+            <div class="card">
+                <h3>Fast Setup</h3>
+                <p>Start prototyping in minutes with clean HTML and CSS.</p>
+            </div>
+            <div class="card">
+                <h3>Responsive</h3>
+                <p>Looks great on desktop and mobile devices.</p>
+            </div>
+            <div class="card">
+                <h3>Interactive</h3>
+                <p>Hover effects and navigation without JavaScript.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+-->
+<h2>Sam's Club items I tried, like it, and currently on sale</h2>
+<div class="row">
+  <div class="column">
+    <a href="https://www.samsclub.com/ip/Member-s-Mark-Tart-Sweet-Apple-Turnover-8-ct/13599158718?classType=REGULAR&from=/search"  target="_blank" >
+    <img src="Apple turnover.jpg" alt="Apple turnover" style="width:100%">
+    </a>
+  </div>
+  <div class="column">
+    <a href="https://www.samsclub.com/ip/Dinty-Moore-Beef-Stew-15-oz-6-pk/13862221989?classType=REGULAR"  target="_blank" >
+    <img src="Beef stew.jpg" alt="Beef stew" style="width:100%">
+    </a>
+  </div>
+  <!--
+  <div class="column">
+    <img src="usps heel.jpg" alt="Mountains" style="width:100%">
+  </div>-->-
+</div>
+<!--
+<div class="row">
+  <div class="column">
+    <img src="Nuts.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Fish.jpg" alt="Forest" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Cheeserolls.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+-->	
+    <footer>
+        <p>&copy; 2026 Suited Spade. <img src="Spade xp.png" alt="Suited Spade icon" style="vertical-align: middle;width:45px;height:30px;"> All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
